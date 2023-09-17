@@ -1,7 +1,6 @@
 const nameINP = document.querySelector(".nameINP");
 const surnameINP = document.querySelector(".surnameINP");
 const passwordINP = document.querySelector(".passwordINP");
-
 const IDINP = document.querySelector(".IDINP");
 const deleteIdINP = document.querySelector(".deleteIdINP");
 const forrm = document.querySelector(".forrm");
@@ -13,7 +12,6 @@ forrm.addEventListener("submit", function(e){
     obj.ad = nameINP.value;
     obj.soyad = surnameINP.value;
     obj.parol = passwordINP.value;
-   
     obj.id = IDINP.value;
 
     // Use Axios to send data to your backend
